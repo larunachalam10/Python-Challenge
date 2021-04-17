@@ -1,39 +1,29 @@
-# Python-Challenge
-
-PyBank :
-
-Tasks to create a Python script that analyzes the records to calculate each of the following:
+# Python-Challenge- Py Me Up, Charlie
 
 
-The total number of months included in the dataset
+Python Challenge
 
+Project Intro/Objective
 
-The net total amount of "Profit/Losses" over the entire period
+The purpose of this project is demonstrate basic data analysis using Python.
 
+Technologies
 
-The average of the changes in "Profit/Losses" over the entire period
+Python
 
+Project Description
 
-The greatest increase in profits (date and amount) over the entire period
+Data analysis was performed on two different .csv files. The different python scripts can be found in the PyBank Directory and the PyPoll Directory. For the analysis, the .csv file is loaded into the script, the main.py script performs an analysis and prints a report to the console, and finally writes the report to a .txt file.
 
+Needs of this project
 
-The greatest decrease in losses (date and amount) over the entire period
+data exploration/descriptive statistics
+data processing/cleaning
+writeup/reporting
 
+Getting Started
 
-PyPoll:
-Access the  poll data called election_data.csv. The dataset is composed of three columns: Voter ID, County, and Candidate.Task is to create a Python script that analyzes the votes and calculates each of the following:
-
-
-The total number of votes cast
-
-
-A complete list of candidates who received votes
-
-
-The percentage of votes each candidate won
-
-
-The total number of votes each candidate won
-
-
-The winner of the election based on popular vote.
+Clone this repo (for help see this tutorial).
+Raw Data is being kept in each directory PyBank Directory and PyPoll Directory
+Data processing/transformation scripts are being kept in each directory: PyBank Directory and PyPoll Directory
+To run the scripts, open the directory path in the console and type python main.py
